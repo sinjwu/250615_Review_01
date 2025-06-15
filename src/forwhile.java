@@ -5,5 +5,17 @@ public class forwhile {
                 System.out.println(i + " × " + j + " = " + i * j);
             }
         }
+
+        int k = 1;
+        while (k <= 10) {
+            System.out.println(k);
+            k++;
+        }
+
+        int l = 10;
+        do {
+            System.out.println(l);
+            l--;
+        } while (l >= 0);
     }
 }
